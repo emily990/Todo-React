@@ -1,4 +1,4 @@
-# Todo-React
+h# Todo-React
 
 Developed a complete Todo app using React Hooks (useState) for state management.
 
@@ -11,4 +11,6 @@ Ensured scalable UI by organizing CSS modularly and following component-based ar
 Enhanced user experience with real-time updates and optimized rendering.
 
 http://localhost:5173/
+
+<img width="1337" height="528" alt="todo" src="https://github.com/user-attachments/assets/c27f4afc-6810-4fd9-9872-3a0cb68639e4" />
 
