@@ -1,18 +1,16 @@
-h# Todo-React
+# React + Vite
 
-Developed a complete Todo app using React Hooks (useState) for state management.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Designed reusable components (Addtask, Listtask, Todo) and maintained clean parent-child data flow using props.
+Currently, two official plugins are available:
 
-Implemented dynamic task creation and deletion with a stable identifier system using crypto.randomUUID() to avoid key conflicts.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Ensured scalable UI by organizing CSS modularly and following component-based architecture.
+## React Compiler
 
-Enhanced user experience with real-time updates and optimized rendering.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-http://localhost:5173/
+## Expanding the ESLint configuration
 
-<img width="1337" height="528" alt="todo" src="https://github.com/user-attachments/assets/c27f4afc-6810-4fd9-9872-3a0cb68639e4" />
-
-
-<img width="1351" height="506" alt="todo2" src="https://github.com/user-attachments/assets/d920f5f1-9e28-43b4-9330-c4668a89211d" />
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
